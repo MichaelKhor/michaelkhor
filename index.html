@@ -2,24 +2,73 @@
 <html lang="en">
 
 <head>
-    <!-- Instructions for the browser, not the user -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Michael Khor | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Khor - Portfolio</title>
     <link rel="stylesheet" href="css/main.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <nav class="nav_bar">
+            <h2>Michael Khor</h2>
+            <ul class="nav_links">
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="index.html">HOME</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
-        <header class="hero-section">
-            <img src="img/Subject.png" alt="Image of Michael Khor" width="432px" height="685px">
-            <h1 class="hero-title">PORTFOLIO</h1>
-            <div class="hero-buttons">
-                <button>PROJECTS</button>
-                <button>ABOUT ME</button>
-                <button>CITATIONS</button>
+        <section class="hero_area">
+            <div class="hero_content">
+                <h2>UI/UX DESIGNER</h2>
+                <h1>Driven by creativity and empathy.</h1>
+                <p>Hi, I'm Michael, a UI/UX designer always brainstorming new ideas and finding ways to make them work. I love collaborating to create user-friendly designs that feel great, while also appreciating flashy, well-designed concepts that stand out. My goal is to blend functionality with visual appeal, making sure every design works for real people.</p>
             </div>
-        </header>
+        </section>
+    
+        <section class="project_highlights_cta">
+            <div class="highlights_title">
+                <h1>Project Highlights</h1>
+                <p>Check out some of my project highlights! This is where I bring ideas to life, collaborate with teams, and design experiences that are both functional and visually engaging. Each project reflects my approach to problem-solving, creativity, and user-centred design.</p>
+            </div>
+            <a href="projects.html" class="view_projects_button">VIEW PROJECTS</a>
+            <img src="img/learnease_hero.png">
+        </section>
+    
+        <section class="about_me_cta">
+            <div class="aboutme_title">
+                <h1>About Me</h1>
+                <p>I’m 21 years old and come from a unique blend of cultures—half Malaysian-Chinese and half Hungarian. I moved to Canada at 5 and grew up studying in Calgary and Vancouver. When I’m not designing, you’ll find me playing video games into the late hours or working on my cars. Oh, and I’m also totally obsessed with cats!</p>
+            </div>
+            <div class="aboutme_showcase">
+                <img src="img/prelude.png">
+                <img src="img/skytree.png">
+                <img src="img/f20b.png">
+            </div>
+            <a href="aboutme.html" class="more_about_me_button">MORE ABOUT ME</a>
+        </section>
     </main>
+    
+
+    <footer>
+        <nav>
+            <ul class="footer_links">
+                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="aboutme.html">ABOUT ME</a></li>
+                <li><a href="#">CITATIONS</a></li>
+            </ul>
+        </nav>
+        <p>Thanks for stopping by! Let’s bring great ideas to life—reach out anytime.</p>
+    </footer>
 </body>
+
+</html>
